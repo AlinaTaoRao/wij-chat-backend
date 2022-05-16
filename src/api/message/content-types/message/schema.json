@@ -28,14 +28,14 @@
       "target": "plugin::users-permissions.user",
       "inversedBy": "messages"
     },
-    "timeStamp": {
-      "type": "datetime",
-      "required": false
-    },
     "sender": {
       "type": "string",
       "required": true,
       "unique": false
+    },
+    "time": {
+      "type": "string",
+      "required": true
     }
   }
 }
