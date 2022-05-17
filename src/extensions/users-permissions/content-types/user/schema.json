@@ -74,6 +74,16 @@
       "relation": "manyToMany",
       "target": "api::message.message",
       "mappedBy": "users_permissions_users"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
