@@ -36,6 +36,14 @@
     "time": {
       "type": "string",
       "required": true
+    },
+    "to": {
+      "type": "string",
+      "required": false
+    },
+    "between": {
+      "type": "string",
+      "required": false
     }
   }
 }
