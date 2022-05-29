@@ -33,6 +33,13 @@
       "type": "string",
       "required": true,
       "unique": false
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
