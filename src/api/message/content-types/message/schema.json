@@ -44,6 +44,14 @@
     "between": {
       "type": "string",
       "required": false
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
