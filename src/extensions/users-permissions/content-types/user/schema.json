@@ -75,6 +75,9 @@
       "target": "api::message.message",
       "mappedBy": "users_permissions_users"
     },
+    "friends": {
+      "type": "text"
+    },
     "avatar": {
       "type": "media",
       "multiple": false,
@@ -83,9 +86,6 @@
         "images",
         "files"
       ]
-    },
-    "friends": {
-      "type": "text"
     }
   }
 }
